@@ -13,6 +13,7 @@
 		3014C7172B7A76AE00038BC6 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014C7162B7A76AE00038BC6 /* MessagesViewController.swift */; };
 		3014C71A2B7A76AE00038BC6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3014C7182B7A76AE00038BC6 /* MainInterface.storyboard */; };
 		3014C71C2B7A76AF00038BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3014C71B2B7A76AF00038BC6 /* Assets.xcassets */; };
+		3014C72A2B7A79F000038BC6 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014C7292B7A79F000038BC6 /* MessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3014C7192B7A76AE00038BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		3014C71B2B7A76AF00038BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3014C71D2B7A76AF00038BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3014C7272B7A79C600038BC6 /* MessagesHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesHostingController.swift; sourceTree = "<group>"; };
+		3014C7292B7A79F000038BC6 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				3014C7162B7A76AE00038BC6 /* MessagesViewController.swift */,
+				3014C7272B7A79C600038BC6 /* MessagesHostingController.swift */,
+				3014C7292B7A79F000038BC6 /* MessagesView.swift */,
 				3014C7182B7A76AE00038BC6 /* MainInterface.storyboard */,
 				3014C71B2B7A76AF00038BC6 /* Assets.xcassets */,
 				3014C71D2B7A76AF00038BC6 /* Info.plist */,
@@ -208,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3014C7172B7A76AE00038BC6 /* MessagesViewController.swift in Sources */,
+				3014C72A2B7A79F000038BC6 /* MessagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
